@@ -5,7 +5,7 @@ const countries = require("country-data").countries;
 const regions = require("country-data").regions;
 const Q = require("q");
 
-const GET_GAMES_US_URL = "http://www.nintendo.com/json/content/get/filter/game?system=switch&sort=title&direction=asc&shop=ncom";
+const GET_GAMES_US_URL = "http://www.nintendo.com/json/content/get/filter/game?system=switch&sort=title&direction=asc";
 const GET_GAMES_EU_URL = "http://search.nintendo-europe.com/{locale}/select";
 const GET_GAMES_JP_CURRENT = "https://www.nintendo.co.jp/data/software/xml-system/switch-onsale.xml";
 const GET_GAMES_JP_COMING = "https://www.nintendo.co.jp/data/software/xml-system/switch-coming.xml";
